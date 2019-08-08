@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="170dp"
+android:background="#212121"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardElevation="4dp"
+app:cardBackgroundColor="#424242"
+android:layout_margin="6dp"
+app:cardUseCompatPadding="false"
+app:cardCornerRadius="8dp">
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+    <ImageView
+            android:id="@+id/movieCastImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"/>
+    <TextView
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:id="@+id/movieStarNameTextView"
+            android:textSize="17sp"/>
+    <TextView
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@android:color/secondary_text_dark"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/movieCharacterNameTextView"
+            android:textSize="12sp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

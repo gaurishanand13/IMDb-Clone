@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+    <item
+            android:id="@+id/favourite"
+            android:title="FAVOURITES"/>
+    <item
+            android:id="@+id/watchList"
+            android:title="WATCHLIST"/>
+    <item
+            android:id="@+id/helpDesk"
+            android:title="HELP DESK"/>
+    <item
+            android:id="@+id/logout"
+            android:title="LOGOUT"/>
+</menu>

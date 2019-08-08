@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="top|center"
+                    android:text="IMDb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#444"
+                    android:textSize="100sp"/>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:text="Welcome to IMDb"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <com.victor.loading.rotate.RotateLoading
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="-100dp"
+                android:layout_gravity="center"
+                android:id="@+id/rotateloading"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:loading_width="5dp"
+                app:loading_color="@android:color/white"
+                android:layout_centerInParent="true"/>
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="80dp"
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:textColorHint="@android:color/white"
+                    android:id="@+id/usernameEditText"
+                    android:textColor="@android:color/white"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Username" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:textColorHint="@android:color/white"
+                    android:id="@+id/passwordEditText"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+                android:textColor="@android:color/white"
+                android:text="LOGIN"
+                android:background="#303F9F"
+                android:id="@+id/loginButton"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+        <TextView
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:text="Don't have an account?"
+                android:layout_marginTop="125dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/createAnAccountButton"
+                android:background="#FFC107"
+                android:text="CREATE AN ACCOUNT"
+                android:layout_gravity="bottom|center"
+                android:layout_width="300dp"
+                android:layout_height="40dp"/>
+    </LinearLayout>
+</ScrollView>

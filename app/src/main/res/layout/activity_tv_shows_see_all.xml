@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".tvShowsSeeAllActivity">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/seeAllTVShowsToolBar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:background="#757575"
+            app:subtitleTextColor="@android:color/black"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:background="@android:color/black"
+            android:id="@+id/seeAllTVShowsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

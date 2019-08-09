@@ -20,7 +20,10 @@ account if we open it as i have posted all the request on their api only.
 ### When movie is marked as favourite
 <a href="https://imgflip.com/gif/37kkwm"><img src="https://i.imgflip.com/37kkwm.gif" title="made at imgflip.com"/></a>
 </br>
-
+### Go through TV Tab
+<a href="https://imgflip.com/gif/37ln77"><img src="https://i.imgflip.com/37ln77.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/37ln87"><img src="https://i.imgflip.com/37ln87.gif" title="made at imgflip.com"/></a>
+</br>
 ## Screenshots
 ### 3 Tabs for movies,TV Shows,Celebs
 ![WhatsApp Image 2019-08-09 at 12 28 55 AM](https://user-images.githubusercontent.com/43893611/62730673-16840400-ba3e-11e9-90bd-45946052843a.jpeg)

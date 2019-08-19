@@ -1,10 +1,10 @@
 # IMDb-Clone app
 It is my First Year project. I have here used the TMDb api which provides us with the details of movies , TV Shows, Celebs  etc. 
-You can see more about this API here https://developers.themoviedb.org/3/getting-started/introduction . 
+You can see more about this API here https://developers.themoviedb.org/3/getting-started/introduction (Api Used my IMDb too). 
 </br>
 </br>
 In this app we will be able to see all the popular,latest,upcoming movies or a TV Show. I have also used the Youtube API here to show the trailers of each movie or TV Show.
-I have also added the feature to add a particular movie or a TV Show to the watchlist or mark as favourite. These reviews/favourites/watchlist will also be reflected on TMDb 
+I have also added the feature to add a particular movie or a TV Show to the watchlist or mark as favourite. These reviews/favourites/watchlist will also be reflected on TMDb database directly
 account if we open it as i have posted all the request on their api only.
 </br>
 ## Some gifs to go through the app
@@ -19,6 +19,10 @@ account if we open it as i have posted all the request on their api only.
 </br>
 ### When movie is marked as favourite
 <a href="https://imgflip.com/gif/37kkwm"><img src="https://i.imgflip.com/37kkwm.gif" title="made at imgflip.com"/></a>
+</br>
+### Search View (We can search for any movie which are in TMDb Database)
+<a href="https://imgflip.com/gif/38c6iv"><img src="https://i.imgflip.com/38c6iv.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/38c6pe"><img src="https://i.imgflip.com/38c6pe.gif" title="made at imgflip.com"/></a>
 </br>
 ### Go through TV Tab
 <a href="https://imgflip.com/gif/37ln87"><img src="https://i.imgflip.com/37ln87.gif" title="made at imgflip.com"/></a>
